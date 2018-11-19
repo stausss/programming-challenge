@@ -14,6 +14,6 @@ public class FileDataTest {
 
     @Test
     public void getId() {
-        Assert.assertEquals(testData.getId(), "1");
+        Assert.assertEquals( "1", testData.getId());
     }
 }
