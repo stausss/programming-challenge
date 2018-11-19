@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class FileDataTest {
 
-    private Processable testData = new FileData("1", 5, 3);
+    private Processable testData = new FileData("1", 3, 5);
 
     @Test
     public void calcDiff() {
