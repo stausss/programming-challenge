@@ -13,7 +13,7 @@ public class FileData implements Processable {
 
     @Override
     public int calcDiff() {
-        return arg1 - arg2;
+        return Math.abs(arg1 - arg2);
     }
 
     @Override
