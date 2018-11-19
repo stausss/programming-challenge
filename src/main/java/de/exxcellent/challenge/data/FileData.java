@@ -13,11 +13,11 @@ public class FileData implements Processable {
 
     @Override
     public int calcDiff() {
-        return 0;
+        return arg1 - arg2;
     }
 
     @Override
     public String getId() {
-        return null;
+        return id;
     }
 }

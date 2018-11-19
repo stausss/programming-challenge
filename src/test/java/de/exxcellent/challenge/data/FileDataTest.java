@@ -9,7 +9,7 @@ public class FileDataTest {
 
     @Test
     public void calcDiff() {
-        Assert.assertEquals(testData.calcDiff(),2);
+        Assert.assertEquals(testData.calcDiff(), 2);
     }
 
     @Test
