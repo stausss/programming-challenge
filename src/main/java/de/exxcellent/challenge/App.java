@@ -31,8 +31,17 @@ public final class App {
         ArrayList<Processable> weatherData;
         weatherData = myReader.read(weatherFileName, weatherIdLabel, weatherArg1Label, weatherArg2Label);
 
-        String dayWithSmallestTempSpread = myAnalyser.findSmallestDiff(weatherData);    // Your day analysis function call …
-        String teamWithSmallesGoalSpread = "A good team"; // Your goal analysis function call …
+        // Task 2
+        String footballFileName = "src/main/resources/de/exxcellent/challenge/football.csv";
+        String footballIdLabel = "Team";
+        String footballArg1Label = "Goals";
+        String footballArg2Label = "Goals Allowed";
+
+        ArrayList<Processable> footballData;
+        footballData = myReader.read(footballFileName, footballIdLabel, footballArg1Label, footballArg2Label);
+
+        String dayWithSmallestTempSpread = myAnalyser.findSmallestDiff(weatherData);  // Your day analysis function call …
+        String teamWithSmallesGoalSpread = myAnalyser.findSmallestDiff(footballData); // Your goal analysis function call …
 
         System.out.printf("Day with smallest temperature spread : %s%n", dayWithSmallestTempSpread);
         System.out.printf("Team with smallest goal spread       : %s%n", teamWithSmallesGoalSpread);
