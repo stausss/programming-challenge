@@ -5,11 +5,9 @@ import de.exxcellent.challenge.data.Processable;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.ArrayList;
 
 public class DataAnalyserTest {
-
     private Analyser testAnalyser = new DataAnalyser();
     private ArrayList<Processable> analyseData = new ArrayList<>();
 

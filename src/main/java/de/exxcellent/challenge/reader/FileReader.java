@@ -1,7 +1,6 @@
 package de.exxcellent.challenge.reader;
 
 import de.exxcellent.challenge.data.Processable;
-
 import java.util.ArrayList;
 
 public interface FileReader {

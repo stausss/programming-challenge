@@ -1,17 +1,12 @@
 package de.exxcellent.challenge.reader;
 
-import de.exxcellent.challenge.data.FileData;
 import de.exxcellent.challenge.data.Processable;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.ArrayList;
 
-import static org.junit.Assert.*;
-
 public class CSVReaderTest {
-
     private FileReader testReader = new CSVReader();
     private ArrayList<Processable> testData = new ArrayList<>();
 

@@ -9,11 +9,10 @@ import org.junit.Test;
  * @author Benjamin Schmid <benjamin.schmid@exxcellent.de>
  */
 public class AppTest {
-
     private String successLabel = "not successful";
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         successLabel = "successful";
     }
 
@@ -21,5 +20,4 @@ public class AppTest {
     public void aPointlessTest() {
         Assert.assertEquals("Expectations met", "successful", successLabel);
     }
-
 }
