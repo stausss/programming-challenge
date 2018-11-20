@@ -4,6 +4,7 @@ import de.exxcellent.challenge.data.FileData;
 import de.exxcellent.challenge.data.Processable;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
+
 import java.io.IOException;
 import java.io.Reader;
 import java.util.ArrayList;

@@ -1,6 +1,7 @@
 package de.exxcellent.challenge.analysis;
 
 import de.exxcellent.challenge.data.Processable;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -14,7 +15,7 @@ public class DataAnalyser implements Analyser {
 
         ArrayList<Integer> diffs = new ArrayList<>();
 
-        for (Processable data: analyseData) {
+        for (Processable data : analyseData) {
             diffs.add(data.calcDiff());
         }
 

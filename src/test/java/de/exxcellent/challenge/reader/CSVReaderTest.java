@@ -4,6 +4,7 @@ import de.exxcellent.challenge.data.Processable;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
 import java.util.ArrayList;
 
 public class CSVReaderTest {

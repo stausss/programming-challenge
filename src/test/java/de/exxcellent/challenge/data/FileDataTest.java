@@ -13,6 +13,6 @@ public class FileDataTest {
 
     @Test
     public void getId() {
-        Assert.assertEquals( "1", testData.getId());
+        Assert.assertEquals("1", testData.getId());
     }
 }
