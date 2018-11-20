@@ -10,6 +10,8 @@ public class DataAnalyser implements Analyser {
 
     @Override
     public String findSmallestDiff(ArrayList<Processable> analyseData) {
+        if (analyseData.isEmpty()) return "no data";
+
         ArrayList<Integer> diffs = new ArrayList<>();
 
         for (Processable data: analyseData) {
